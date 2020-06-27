@@ -1,0 +1,29 @@
+﻿@page
+@model Mail.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Account</th>
+            <th>Balance</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var accountBalance in Model.AccountBalances)
+        {
+        <tr>
+            <td>@accountBalance.AccountId</td>
+            <td>@accountBalance.Balance</td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<form method="post">
+    <input type="hidden" asp-for="FileName" />
+    <input type="submit" value="SendMail" class="btn btn-default" />
+</form>

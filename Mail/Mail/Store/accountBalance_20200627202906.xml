@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <AccountBalance>
+	<Account>1</Account>
+	<Balance>10$</Balance>
+  </AccountBalance>
+  <AccountBalance>
+	<Account>2</Account>
+	<Balance>20$</Balance>
+  </AccountBalance>
+  <AccountBalance>
+	<Account>3</Account>
+	<Balance>30$</Balance>
+  </AccountBalance>
+</data>
