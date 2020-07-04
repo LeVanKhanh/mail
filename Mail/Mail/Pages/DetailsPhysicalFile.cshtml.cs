@@ -147,6 +147,7 @@ namespace Mail
                     mail.Subject = emailTemplate.Subject;
                     mail.Body = string.Format(emailTemplate.Body,
                         accountBalance.AccountName1,
+                        DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"),
                         accountBalance.AccountId,
                         accountBalance.ActualBalance, note);
 
