@@ -4,26 +4,61 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
-<table>
-    <thead>
-        <tr>
-            <th>Account</th>
-            <th>Balance</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var accountBalance in Model.AccountBalances)
-        {
-        <tr>
-            <td>@accountBalance.AccountId</td>
-            <td>@accountBalance.Balance</td>
-        </tr>
-        }
-    </tbody>
-</table>
-
-<form method="post">
-    <input type="hidden" asp-for="FileName" />
-    <input type="submit" value="SendMail" class="btn btn-default" />
-</form>
+<div style="overflow-x: auto; margin-left:15px; margin-right:15px">
+    <h1>ACCOUNT DETAILS</h1>
+    <table>
+        <thead>
+            <tr>
+                <th width="100px">Chi nhánh</th>
+                <th width="100px">Tài khoản</th>
+                <th width="100px">Tài khoản cũ</th>
+                <th width="100px">Tên tài khoản 1</th>
+                <th width="100px">Mã khách hàng</th>
+                <th width="100px">Tên gợi nhớ</th>
+                <th width="100px">Tên khách hàng 1</th>
+                <th width="100px">Tên khách hàng 2</th>
+                <th width="100px">Mã Sản phẩm</th>
+                <th width="100px">Tên Sản phẩm</th>
+                <th width="100px">Tiền tệ</th>
+                <th width="100px">Số dư khả dụng</th>
+                <th width="100px">Số dư thực tế</th>
+                <th width="100px">Cán bộ quản lý khách hàng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var accountBalance in Model.AccountBalances)
+            {
+                <tr>
+                    <td>@accountBalance.Branch</td>
+                    <td>@accountBalance.AccountId</td>
+                    <td>@accountBalance.OldAccountId</td>
+                    <td>@accountBalance.AccountName1</td>
+                    <td>@accountBalance.CustomerCode</td>
+                    <td>@accountBalance.ShortName</td>
+                    <td>@accountBalance.CustomerName1</td>
+                    <td>@accountBalance.CustomerName2</td>
+                    <td>@accountBalance.ProductCode</td>
+                    <td>@accountBalance.ProductName</td>
+                    <td>@accountBalance.Currency</td>
+                    <td>@accountBalance.AvailableBalance</td>
+                    <td>@accountBalance.ActualBalance</td>
+                    <td>@accountBalance.CustomerOfficer</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div style="margin-left:15px; margin-right:15px">
+    <form method="post">
+        <div>
+            Note
+        </div>
+        <div>
+            <textarea name="note" style="width: 100%"></textarea>
+        </div>
+        <div>
+            <input type="hidden" asp-for="FileName" />
+            <input type="submit" value="SendMail" class="btn btn-default" />
+        </div>
+    </form>
+</div>

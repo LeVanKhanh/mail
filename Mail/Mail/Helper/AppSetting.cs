@@ -10,8 +10,9 @@ namespace Mail.Helper
         {
             _config = config;
         }
-        public string EmailUserName => _config.GetValue<string>("MailSetting:UserName");
-
+        public string EmailAddress => _config.GetValue<string>("MailSetting:EmailAddress");
         public string EmailPassword => _config.GetValue<string>("MailSetting:Password");
+        public string EmailHost => _config.GetValue<string>("MailSetting:Host");
+        public int EmailPort => _config.GetValue<int>("MailSetting:587");
     }
 }

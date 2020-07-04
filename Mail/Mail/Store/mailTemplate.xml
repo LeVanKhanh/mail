@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mailTemplate>
 	<subject>Balance</subject>
-	<body>Your Balance is: {0}</body>
+	<body>
+    Kính gửi: Ngân hàng {0}
+    Ngân hàng Nhà nước Chi nhánh Đồng Nai thông báo số dư tài khoản tiền gửi tại thời điểm {1} như sau:
+    -	Tài khoản: {1}
+    -	Số dư có: {2}
+    Đề nghị Ngân hàng {0} kiểm tra, đối chiếu, nếu phát hiện chênh lệch đề nghị báo ngay cho phòng Kế toán – Thanh toán, Ngân hàng Nhà nước CN Đồng Nai: SĐT: 0251.3822586 ; email: kttt.sbvdn@gmail.com./.
+    {3}
+    Trân trọng!
+  </body>
 </mailTemplate>

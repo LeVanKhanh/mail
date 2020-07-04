@@ -2,7 +2,9 @@
 {
     public interface IAppSetting
     {
-        string EmailUserName { get; }
+        string EmailAddress { get; }
         string EmailPassword { get; }
+        string EmailHost { get; }
+        int EmailPort { get; }
     }
 }

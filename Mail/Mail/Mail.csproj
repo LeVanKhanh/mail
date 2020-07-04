@@ -15,6 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\lib\Content\Images\Logo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Store\accountBalance_20200627202906.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

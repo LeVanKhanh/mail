@@ -1,0 +1,47 @@
+﻿@page
+@model Mail.SendMailsResult
+@{
+    ViewData["Title"] = "_SendMailErrors";
+}
+
+<div class="container body-content">
+    <h1>Send Mails Result</h1>
+
+    @if (Model.ExchangeSendMailError.SendMailErrors.Any())
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Error Message
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var error in Model.ExchangeSendMailError.SendMailErrors)
+                {
+                    <tr>
+                        <td>
+                            @error.AccountBalance.Email
+                        </td>
+                        <td>
+                            @error.Message
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <h1>
+            The Mails have been sent successfully!
+        </h1>
+    }
+</div>
+
+
+

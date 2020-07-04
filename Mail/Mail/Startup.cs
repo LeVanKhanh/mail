@@ -9,6 +9,7 @@ using Mail.Data;
 using Mail.Filters;
 using System.IO;
 using Mail.Helper;
+using Mail.Services;
 
 namespace SampleApp
 {
@@ -62,6 +63,7 @@ namespace SampleApp
             services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("InMemoryDb"));
 
             services.AddSingleton<IAppSetting, AppSetting>();
+            services.AddSingleton<IExchangeSendMailError, ExchangeSendMailError>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -78,7 +80,8 @@ namespace SampleApp
             app.UseStaticFiles();
             app.UseRouting();
 
-            app.UseEndpoints(endpoints => {
+            app.UseEndpoints(endpoints =>
+            {
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
