@@ -21,6 +21,12 @@
     <None Update="Store\Account\accounts.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Store\Balance\EXAMPLE_ACCOUNT_DETAILS.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Store\Mail\mailBody.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Store\Mail\mailTemplate.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
