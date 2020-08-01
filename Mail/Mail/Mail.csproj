@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Store\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\lib\Content\Images\Logo.jpg" />
   </ItemGroup>
 
@@ -22,12 +18,16 @@
     <None Update="Store\accountBalance_20200627202906.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Store\accounts.xml">
+    <None Update="Store\Account\accounts.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Store\mailTemplate.xml">
+    <None Update="Store\Mail\mailTemplate.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

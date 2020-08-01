@@ -9,18 +9,19 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Mail.Data;
 using Mail.Models;
+using Mail.Services;
 
 namespace Mail.Pages
 {
     public class IndexModel : PageModel
     {
         private readonly AppDbContext _context;
-        private readonly IFileProvider _fileProvider;
+        private readonly IBalanceFileProvider _balanceFileProvider;
 
-        public IndexModel(AppDbContext context, IFileProvider fileProvider)
+        public IndexModel(AppDbContext context, IBalanceFileProvider balanceFileProvider)
         {
             _context = context;
-            _fileProvider = fileProvider;
+            _balanceFileProvider = balanceFileProvider;
         }
 
         public IList<AppFile> DatabaseFiles { get; private set; }
@@ -29,7 +30,7 @@ namespace Mail.Pages
         public async Task OnGetAsync()
         {
             DatabaseFiles = await _context.File.AsNoTracking().ToListAsync();
-            PhysicalFiles = _fileProvider.GetDirectoryContents(string.Empty);
+            PhysicalFiles = _balanceFileProvider.GetDirectoryContents(string.Empty);
         }
 
         public async Task<IActionResult> OnGetDownloadDbAsync(int? id)
@@ -52,7 +53,7 @@ namespace Mail.Pages
 
         public IActionResult OnGetDownloadPhysical(string fileName)
         {
-            var downloadFile = _fileProvider.GetFileInfo(fileName);
+            var downloadFile = _balanceFileProvider.GetFileInfo(fileName);
 
             return PhysicalFile(downloadFile.PhysicalPath, MediaTypeNames.Application.Octet, fileName);
         }

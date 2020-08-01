@@ -3,10 +3,10 @@ using Mail.Models;
 using Mail.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.FileProviders;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Net.Mail;
 
@@ -14,12 +14,19 @@ namespace Mail
 {
     public class DetailsModel : PageModel
     {
-        private readonly IFileProvider _fileProvider;
+        private readonly IAccountFileProvider _accountFileProvider;
+        private readonly IBalanceFileProvider _balanceFileProvider;
+        private readonly IMailFileProvider _mailFileProvider;
         private readonly IAppSetting _appSetting;
         private IExchangeSendMailError _exchangeSendMailError;
-        public DetailsModel(IFileProvider fileProvider, IAppSetting appSetting, IExchangeSendMailError exchangeSendMailError)
+        public DetailsModel(IAccountFileProvider accountFileProvider,
+            IBalanceFileProvider balanceFileProvider,
+            IMailFileProvider mailFileProvider,
+            IAppSetting appSetting, IExchangeSendMailError exchangeSendMailError)
         {
-            _fileProvider = fileProvider;
+            _accountFileProvider = accountFileProvider;
+            _balanceFileProvider = balanceFileProvider;
+            _mailFileProvider = mailFileProvider;
             _appSetting = appSetting;
             _exchangeSendMailError = exchangeSendMailError;
         }
@@ -40,7 +47,7 @@ namespace Mail
 
         private IEnumerable<AccountBalance> GetAccountBalances(string fileName)
         {
-            var theFile = _fileProvider.GetFileInfo(fileName);
+            var theFile = _balanceFileProvider.GetFileInfo(fileName);
             DataSet dataSet = new DataSet();
             dataSet.ReadXml(theFile.PhysicalPath, XmlReadMode.InferSchema);
             var tblAccountBalance = dataSet.Tables["column"];
@@ -109,7 +116,7 @@ namespace Mail
 
         private EmailTemplate GetEmailTemplate()
         {
-            var mailTemplateFile = _fileProvider.GetFileInfo("mailTemplate.xml");
+            var mailTemplateFile = _mailFileProvider.GetFileInfo("mailTemplate.xml");
             DataSet dataSet = new DataSet();
             dataSet.ReadXml(mailTemplateFile.PhysicalPath, XmlReadMode.InferSchema);
             var emailTemplate = dataSet.Tables[0].Rows[0];
@@ -122,7 +129,7 @@ namespace Mail
 
         private IEnumerable<Account> GetAccounts()
         {
-            var accountsFile = _fileProvider.GetFileInfo("accounts.xml");
+            var accountsFile = _accountFileProvider.GetFileInfo("accounts.xml");
             DataSet dataSet = new DataSet();
             dataSet.ReadXml(accountsFile.PhysicalPath, XmlReadMode.InferSchema);
             var tblAccount = dataSet.Tables[0];
@@ -145,11 +152,20 @@ namespace Mail
                     mail.From = new MailAddress(_appSetting.EmailAddress);
                     mail.To.Add(email);
                     mail.Subject = emailTemplate.Subject;
-                    mail.Body = string.Format(emailTemplate.Body,
-                        accountBalance.AccountName1,
-                        DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"),
-                        accountBalance.AccountId,
-                        accountBalance.ActualBalance, note);
+
+                    var mailBodyFile = _mailFileProvider.GetFileInfo(emailTemplate.Body);
+                    string strMailBody = "";
+                    using(var fileReader = new StreamReader(mailBodyFile.PhysicalPath))
+                    {
+                        strMailBody = fileReader.ReadToEnd();
+                    }
+                    strMailBody = strMailBody.Replace("@Model.AccountName", accountBalance.AccountName1);
+                    strMailBody = strMailBody.Replace("@Model.DateTime", DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss"));
+                    strMailBody = strMailBody.Replace("@Model.Account", accountBalance.AccountId);
+                    strMailBody = strMailBody.Replace("@Model.ActualBalance", accountBalance.ActualBalance);
+                    strMailBody = strMailBody.Replace("@Model.Note", note);
+                    mail.Body = strMailBody;
+                    mail.IsBodyHtml = true;
 
                     using (var SmtpServer = new SmtpClient(_appSetting.EmailHost, _appSetting.EmailPort))
                     {

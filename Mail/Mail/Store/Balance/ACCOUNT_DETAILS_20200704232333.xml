@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enquiry>
+<title>Chi tiết tài khoản</title>
+<header>
+<row>
+<caption>Chi tiết tài khoản</caption></row>
+<columnheaders>
+<columnheader>Chi nhánh</columnheader>
+<columnheader>Tài khoản</columnheader>
+<columnheader>Tài khoản cũ</columnheader>
+<columnheader>Tên tài khoản 1</columnheader>
+<columnheader>Mã khách hàng</columnheader>
+<columnheader>Tên gợi nhớ</columnheader>
+<columnheader>Tên khách hàng 1</columnheader>
+<columnheader>Tên khách hàng 2</columnheader>
+<columnheader>Mã Sản phẩm</columnheader>
+<columnheader>Tên sản phẩm</columnheader>
+<columnheader>Tiền tệ</columnheader>
+<columnheader>Số dư khả dụng</columnheader>
+<columnheader>Số dư thực tế</columnheader>
+<columnheader>Cán bộ quản lý khách hàng</columnheader></columnheaders></header>
+<data>
+<row>
+<column>VN0010020</column>
+<column>155837</column>
+<column>DNA4536</column>
+<column>NH TNHH MTV PUBLIC VN CN DONG NAI</column>
+<column>13015</column>
+<column>PUBLIC</column>
+<column>NH TNHH MTV PUBLIC VIET NAM CN DONG NAI</column>
+<column/>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,219,992</column>
+<column>1,219,992</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>189798</column>
+<column/>
+<column>NH TMCP BẮC Á CN ĐỒNG NAI</column>
+<column>14706</column>
+<column>CU75313001</column>
+<column>NH TMCP BẮC Á CN ĐỒNG NAI</column>
+<column/>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,935,400</column>
+<column>1,935,400</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>190543</column>
+<column/>
+<column>NH TNHH MTV WOORI VN CN DONG NAI</column>
+<column>14755</column>
+<column>WOORI</column>
+<column>NGAN HANG TNHH MTV WOORI VIET NAM C N DONG NAI</column>
+<column/>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,906,980</column>
+<column>1,906,980</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>189488</column>
+<column/>
+<column>TG NH TMCP BAO VIET CN DONG NAI</column>
+<column>14686</column>
+<column>BAOVIET</column>
+<column>NH TMCP Bảo Việt CN Đồng Nai</column>
+<column/>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,358,932,400</column>
+<column>1,358,932,400</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>131164</column>
+<column>DNA45390099</column>
+<column>TG NH Hợp tác CN Đồng Nai</column>
+<column>11382</column>
+<column>CU75901001</column>
+<column>Ngân hàng Hợp tác</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,479,230</column>
+<column>1,479,230</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131188</column>
+<column>DNA45370002</column>
+<column>TG NH The Shanghai C.S CN Đồng Nai</column>
+<column>11376</column>
+<column>CU75606001</column>
+<column>NHTheShanghai Commercial&amp;Savings DN</column>
+<column>NHTheShanghai Commercial&amp;Savings DN</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,308,977</column>
+<column>1,308,977</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>131199</column>
+<column>DNA45370003</column>
+<column>TG NH Shinhan VN CN Biên Hòa</column>
+<column>11377</column>
+<column>CU75616001</column>
+<column>Shinhan Việt Nam</column>
+<column>CN Biên Hòa</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,350,683</column>
+<column>1,350,683</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131202</column>
+<column>DNA45370004</column>
+<column>TG NH Shinhan VN CN Đồng Nai</column>
+<column>11378</column>
+<column>CU75616002</column>
+<column>Shinhan Việt Nam</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,542,133</column>
+<column>1,542,133</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131218</column>
+<column>DNA45370005</column>
+<column>TG NH TNHH ESUN CN Đồng Nai</column>
+<column>11380</column>
+<column>CU75658001</column>
+<column>Ngân hàng TNHH ESUN ĐỒNG NAI</column>
+<column>NNgân hàng TNHH ESUN ĐỒNG NAI</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,812,055</column>
+<column>1,812,055</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131229</column>
+<column>DNA45360001</column>
+<column>TG NH LD Việt Thái CN Đồng Nai</column>
+<column>11375</column>
+<column>CU75504001</column>
+<column>NHLD Việt Thái</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>0</column>
+<column>0</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>131237</column>
+<column>DNA45360002</column>
+<column>TG NH TNHH Indovina CN Đồng Nai</column>
+<column>11374</column>
+<column>CU75502001</column>
+<column>Indovina Bank</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,183,057</column>
+<column>1,183,057</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>131245</column>
+<column>DNA45360004</column>
+<column>TG NH TNHHMTV Public VN CN Dong Nai</column>
+<column>11373</column>
+<column>CU75501001</column>
+<column>VIDPUBLIC BANK</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>0</column>
+<column>0</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>131253</column>
+<column>DNA453400001</column>
+<column>TG NH CHÍNH SÁCH CN Đồng Nai</column>
+<column>11341</column>
+<column>CU75207001</column>
+<column>NH Chính sách Xã hội</column>
+<column>CN tỉnh đồng nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,569,114</column>
+<column>1,569,114</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>131277</column>
+<column>DNA453100101</column>
+<column>TG NH TMCP Công Thương CN Đồng Nai</column>
+<column>11333</column>
+<column>CU75201001</column>
+<column>NHTMCP Công thương</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,544,868</column>
+<column>1,544,868</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131288</column>
+<column>DNA453100102</column>
+<column>TG NH TMCP Công Thương KCN Biên Hòa</column>
+<column>11334</column>
+<column>CU75201002</column>
+<column>NHTMCP Công thương</column>
+<column>CN KCN Biên Hoà</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,361,890</column>
+<column>1,361,890</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131296</column>
+<column>DNA453100104</column>
+<column>TG NHTMCP Công Thương CN Nhơn Trạch</column>
+<column>11335</column>
+<column>CU75201004</column>
+<column>NHTMCP Công thương</column>
+<column>CN Nhơn Trạch</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,060,916</column>
+<column>1,060,916</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131307</column>
+<column>DNA453100301</column>
+<column>TG NH TMCP Ngoại Thương CN Đồng Nai</column>
+<column>11337</column>
+<column>CU75203001</column>
+<column>NHTMCP Ngoại thương</column>
+<column>CN đồng nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,685,455,291</column>
+<column>1,685,455,291</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131326</column>
+<column>DNA453100801</column>
+<column>TG NHTMCP SG Thương Tín CN Đồng Nai</column>
+<column>11344</column>
+<column>CU75303001</column>
+<column>NH Sài Gòn Thương tín</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,480,154,704</column>
+<column>1,480,154,704</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131334</column>
+<column>DNA453100802</column>
+<column>TG NH TMCP Á Châu CN Đồng Nai</column>
+<column>11348</column>
+<column>CU75307001</column>
+<column>NHTMCP Á Châu</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,594,887</column>
+<column>1,594,887</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131342</column>
+<column>DNA453100803</column>
+<column>TG NH TMCP Quốc Tế CN Đồng Nai</column>
+<column>11353</column>
+<column>CU75314001</column>
+<column>NHTMCP Quốc Tế</column>
+<column>CN đồng nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,341,475</column>
+<column>1,341,475</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131358</column>
+<column>DNA453100804</column>
+<column>TG NHTMCP SG Công Thương CN Đnai</column>
+<column>11349</column>
+<column>CU75308001</column>
+<column>NH Sài Gòn Công thương</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,594,417</column>
+<column>1,594,417</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131369</column>
+<column>DNA453100805</column>
+<column>TG NH TMCP Kỹ Thương CN Đồng Nai</column>
+<column>11351</column>
+<column>CU75310001</column>
+<column>NHTMCP Kỹ Thương VN</column>
+<column>cn đồng nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>0</column>
+<column>0</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131377</column>
+<column>DNA453100806</column>
+<column>TG NH TMCP VN Thịnh Vượng CN ĐNAI</column>
+<column>11350</column>
+<column>CU75309001</column>
+<column>NH Việt Nam Thịnh Vượng</column>
+<column>CN đồng nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,144,710</column>
+<column>1,144,710</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>131385</column>
+<column>DNA453100807</column>
+<column>TG NH TMCP Việt Á CN Đồng Nai</column>
+<column>11369</column>
+<column>CU75355001</column>
+<column>NHTMCP Việt Á</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,398,531</column>
+<column>1,398,531</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131393</column>
+<column>DNA453100808</column>
+<column>TG NHTMCP Xuất Nhập Khẩu VN CN ĐNai</column>
+<column>11346</column>
+<column>CU75305001</column>
+<column>NH Xuất nhập khẩu VN</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,516,518</column>
+<column>1,516,518</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>131407</column>
+<column>DNA453100809</column>
+<column>TG NH TMCP An Bình CN Đồng Nai</column>
+<column>11357</column>
+<column>CU75323001</column>
+<column>NHTMCP An Bình</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,110,805</column>
+<column>1,110,805</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131415</column>
+<column>DNA453100810</column>
+<column>TG NH TMCP Đông Á CN Đồng Nai</column>
+<column>11345</column>
+<column>CU75304001</column>
+<column>NHTMCP Đông Á</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,240,445</column>
+<column>1,240,445</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131423</column>
+<column>DNA453100812</column>
+<column>TG NH TMCP Quân Đội CN Đồng Nai</column>
+<column>11352</column>
+<column>CU75311001</column>
+<column>NHTMCP Quân đội</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,856,673</column>
+<column>1,856,673</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131447</column>
+<column>DNA453100814</column>
+<column>TG NH TMCP Phương Đông CN Đồng Nai</column>
+<column>11360</column>
+<column>CU75333001</column>
+<column>NHTMCP Phương Đông</column>
+<column>cn đồng nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,489,148</column>
+<column>1,489,148</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131458</column>
+<column>DNA453100815</column>
+<column>TG NH TMCP SG Hà Nội CN Đồng Nai</column>
+<column>11366</column>
+<column>CU75348001</column>
+<column>NH Sài Gòn Hà Nội</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,286,587</column>
+<column>1,286,587</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>129828</column>
+<column>DNA453100816</column>
+<column>TG NH TMCP Quốc Dân CN Đồng Nai</column>
+<column>11367</column>
+<column>CU75352001</column>
+<column>NHTMCP Quốc Dân</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,588,161</column>
+<column>1,588,161</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>130303</column>
+<column>DNA453100817</column>
+<column>TG NH TMCP Xăng Dầu CN Đồng Nai</column>
+<column>11364</column>
+<column>CU75341001</column>
+<column>NH Xăng dầu Petrolimex</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,319,419</column>
+<column>1,319,419</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>130311</column>
+<column>DNA453100818</column>
+<column>TG NH TMCP Sài Gòn CN Đồng Nai</column>
+<column>11361</column>
+<column>CU75334001</column>
+<column>NHTMCP Sài Gòn</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,886,073</column>
+<column>1,886,073</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>129887</column>
+<column>DNA453100820</column>
+<column>TG NH TMCP Xây dựng CN Đồng Nai</column>
+<column>11363</column>
+<column>CU75339001</column>
+<column>NH Xây dựng VN</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,201,205</column>
+<column>1,201,205</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>130451</column>
+<column>DNA453100821</column>
+<column>TG NH TMCP Đông Nam Á CN Đồng Nai</column>
+<column>11354</column>
+<column>CU75317001</column>
+<column>NHTMCP Đông Nam Á</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,957,760</column>
+<column>1,957,760</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>129976</column>
+<column>DNA453100822</column>
+<column>TG NH TMCP Kiên Long CN Đồng Nai</column>
+<column>11368</column>
+<column>CU75353001</column>
+<column>NHTMCP Kiên Long</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,981,603</column>
+<column>1,981,603</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>130087</column>
+<column>DNA453100823</column>
+<column>TG NH TMCP Hàng Hải CN Đồng Nai</column>
+<column>11343</column>
+<column>CU75302001</column>
+<column>NHTMCP Hàng Hải</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,719,617</column>
+<column>1,719,617</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>130397</column>
+<column>DNA453100824</column>
+<column>TG NH TMCP Tiên Phong CN Đồng Nai</column>
+<column>11371</column>
+<column>CU75358001</column>
+<column>NHTMCP Tiên Phong</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,844,255</column>
+<column>1,844,255</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>131466</column>
+<column>DNA453100825</column>
+<column>TG NH TMCP BĐ Liên Việt CN Đồng Nai</column>
+<column>11370</column>
+<column>CU75357001</column>
+<column>NH Bưu điện Liên Việt</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,251,138</column>
+<column>1,251,138</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column>VN0010020</column>
+<column>131474</column>
+<column>DNA453100826</column>
+<column>TG NH TMCP Đại Chúng CN Đồng Nai</column>
+<column>11372</column>
+<column>CU75360001</column>
+<column>NHTMCP Đại Chúng</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,147,968</column>
+<column>1,147,968</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>129755</column>
+<column>DNA453100827</column>
+<column>TG NH TNHHMTV Đại Dương CN Đồng Nai</column>
+<column>11355</column>
+<column>CU75319001</column>
+<column>NH Đại Dương</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,307,200</column>
+<column>1,307,200</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>129771</column>
+<column>DNA453100829</column>
+<column>TG NH TMCP Bản Việt CN Đồng Nai</column>
+<column>11358</column>
+<column>CU75327001</column>
+<column>NHTMCP Bản Việt</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,092,390</column>
+<column>1,092,390</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>129787</column>
+<column>DNA453100830</column>
+<column>TG NH TMCP PT TPHCM CN SGD ĐNai</column>
+<column>11356</column>
+<column>CU75321002</column>
+<column>NH Phát triển TP HCM</column>
+<column>SGD Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,708,185</column>
+<column>1,708,185</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>129798</column>
+<column>DNA453100831</column>
+<column>TG NH TMCP Nam Á CN Đồng Nai</column>
+<column>11347</column>
+<column>CU75306001</column>
+<column>NHTMCP Nam Á</column>
+<column>CN Đồng Nai</column>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,657,220</column>
+<column>1,657,220</column>
+<column>Implementation</column></row>
+<row>
+<column>VN0010020</column>
+<column>196387</column>
+<column/>
+<column>TG NH TMCP VN THƯƠNG TIN CN Đ.NAI</column>
+<column>14907</column>
+<column>THUONGTIN</column>
+<column>NH TMCP VN THƯƠNG TÍN CN ĐỒNG NAI</column>
+<column/>
+<column>2001</column>
+<column>Tiền gửi KKH TCTD, TCTC VN</column>
+<column>VND</column>
+<column>1,279,400</column>
+<column>1,279,400</column>
+<column>Implementation</column></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row>
+<row>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/>
+<column/></row></data>
+<footer> </footer></enquiry>

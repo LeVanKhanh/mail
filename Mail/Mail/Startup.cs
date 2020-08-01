@@ -3,11 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using Mail.Data;
 using Mail.Filters;
-using System.IO;
 using Mail.Helper;
 using Mail.Services;
 
@@ -50,19 +48,11 @@ namespace SampleApp
                                 });
                     });
             #endregion
-
-            var path = Path.GetFullPath(Configuration.GetValue<string>("StoredFilesPath"));
-            // To list physical files from a path provided by configuration:
-            var physicalProvider = new PhysicalFileProvider(path);
-
-            // To list physical files in the temporary files folder, use:
-            //var physicalProvider = new PhysicalFileProvider(Path.GetTempPath());
-
-            services.AddSingleton<IFileProvider>(physicalProvider);
-
-            services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("InMemoryDb"));
-
             services.AddSingleton<IAppSetting, AppSetting>();
+            services.AddSingleton<IAccountFileProvider, AccountFileProvider>();
+            services.AddSingleton<IBalanceFileProvider, BalanceFileProvider>();
+            services.AddSingleton<IMailFileProvider, MailFileProvider>();
+            services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("InMemoryDb"));
             services.AddSingleton<IExchangeSendMailError, ExchangeSendMailError>();
         }
 

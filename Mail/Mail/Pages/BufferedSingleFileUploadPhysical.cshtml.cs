@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Configuration;
 using Mail.Utilities;
 using System;
+using Mail.Helper;
 
 namespace Mail.Pages
 {
@@ -14,17 +15,12 @@ namespace Mail.Pages
     {
         private readonly long _fileSizeLimit;
         private readonly string[] _permittedExtensions = { ".xml" };
-        private readonly string _targetFilePath;
+        private readonly IAppSetting _appSetting;
 
-        public BufferedSingleFileUploadPhysicalModel(IConfiguration config)
+        public BufferedSingleFileUploadPhysicalModel(IConfiguration config, IAppSetting appSetting)
         {
             _fileSizeLimit = config.GetValue<long>("FileSizeLimit");
-
-            // To save physical files to a path provided by configuration:
-            _targetFilePath = config.GetValue<string>("StoredFilesPath");
-
-            // To save physical files to the temporary files folder, use:
-            //_targetFilePath = Path.GetTempPath();
+            _appSetting = appSetting;
         }
 
         [BindProperty]
@@ -63,7 +59,7 @@ namespace Mail.Pages
             var fileName = FileUpload.FormFile.FileName.Replace(".xml", "");
             var trustedFileNameForFileStorage = $"{fileName}_{DateTime.Now.ToString("yyyyMMddHHmmss")}.xml"; //Path.GetRandomFileName();
             var filePath = Path.Combine(
-                _targetFilePath, trustedFileNameForFileStorage);
+                _appSetting.BalanceStoredFilesPath, trustedFileNameForFileStorage);
 
             // **WARNING!**
             // In the following example, the file is saved without

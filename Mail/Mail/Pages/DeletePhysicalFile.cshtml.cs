@@ -1,3 +1,4 @@
+using Mail.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.FileProviders;
@@ -6,9 +7,9 @@ namespace Mail.Pages
 {
     public class DeletePhysicalFileModel : PageModel
     {
-        private readonly IFileProvider _fileProvider;
+        private readonly IBalanceFileProvider _fileProvider;
 
-        public DeletePhysicalFileModel(IFileProvider fileProvider)
+        public DeletePhysicalFileModel(IBalanceFileProvider fileProvider)
         {
             _fileProvider = fileProvider;
         }

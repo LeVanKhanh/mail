@@ -6,5 +6,8 @@
         string EmailPassword { get; }
         string EmailHost { get; }
         int EmailPort { get; }
+        string AccountStoredFilesPath { get; }
+        string BalanceStoredFilesPath { get; }
+        string MailStoredFilesPath { get; }
     }
 }
